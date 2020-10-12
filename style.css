@@ -1,0 +1,67 @@
+body
+{
+	background-color: White;
+}
+
+div.header
+{
+	font-family: ARIAL; 
+	background-color: Black;
+	color: White;
+	font-size: 150%;
+	margin:0;
+    padding: 20px 10px;
+}
+
+p
+{
+	font-family: ARIAL; 
+	background-color: White;
+	color: Black;
+}
+
+img
+{
+	width: 100%;
+}
+
+.relative
+{
+	position: relative;
+}
+
+.absolute
+{
+	position: absolute;
+	color: white;
+	top: 50%;
+	left: 25%;
+	transform: translate(-50%, -50%);
+}
+
+.button
+{
+	position: absolute;
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	top: 60%;
+	left: 55%;
+	transform: translate(-50%, -50%);
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+div.footer
+{
+	font-family: ARIAL; 
+	background-color: Black;
+	text-align: center;
+	color: White;
+	margin:0;
+    padding: 20px 10px;
+}
